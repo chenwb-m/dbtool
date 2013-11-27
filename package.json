@@ -1,0 +1,22 @@
+{
+  "author": "chenwb",
+  "name": "DBTool",
+  "description": "A node.js DBTool, support MySQL,Oracle,SQL Server and is 100% MIT licensed.",
+  "version": "0.0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenwb-m/node-dbtool"
+  },
+  "main": "./index",
+  "scripts": {
+    "test": "laika test"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "optionalDependencies": {}
+}
