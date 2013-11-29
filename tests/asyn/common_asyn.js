@@ -18,7 +18,7 @@ var mysqlConfig = {
     maxConn  : 20
 };
 
-common.MysqlDBToolAsyn = sql.createDBToolAsyn(mysqlConfig, function(err){
+common.MysqlDBToolAsyn = sql.createDBTool(mysqlConfig, function(err){
     if(err) {
         throw err;
     }
@@ -42,7 +42,7 @@ var mssqlConfig = {
     maxConn  : 20
 };
 
-common.MssqlDBToolAsyn = sql.createDBToolAsyn(mssqlConfig, function(err){
+common.MssqlDBToolAsyn = sql.createDBTool(mssqlConfig, function(err){
     if(err) {
         throw err;
     }
@@ -68,7 +68,7 @@ var oracleConfig = {
     maxConn  : 20
 };
 
-common.OracleDBToolAsyn = sql.createDBToolAsyn(oracleConfig, function(err){
+common.OracleDBToolAsyn = sql.createDBTool(oracleConfig, function(err){
     if(err) {
         throw err;
     }

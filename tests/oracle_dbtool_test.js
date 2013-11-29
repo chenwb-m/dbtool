@@ -1,11 +1,24 @@
 var common = require("./common");
 var oracleDBTool = common.oracleDBTool;
 
-setTimeout(function() {
-    oracleDBTool.executeQuery("select * from PM_USER where rownum < 3 ", [], function(err, rows){
-        if(err) {
-            throw err;
-        }
-        console.dir(rows);
-    });
-}, 500);
+
+oracleDBTool.executeQuery("select * from PM_USER where rownum < @@", [2], function(err, rows){
+    if(err) {
+        throw err;
+    }
+    console.dir(rows);
+});
+
+oracleDBTool.executeQuery("select * from PM_USER where rownum < 2 ", [], function(err, rows){
+    if(err) {
+        throw err;
+    }
+    console.dir(rows);
+});
+
+oracleDBTool.executeQuery("select 1 from dual", function(err, rows){
+    if(err) {
+        throw err;
+    }
+    console.dir(rows);
+});

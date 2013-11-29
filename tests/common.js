@@ -4,7 +4,6 @@ var sql = require('../');
 
 var mysqlConfig = {
     dialect  : 'mysql',
-    version  : '5',
 
     host     : '192.168.1.113',
     port     : 3306,
@@ -12,16 +11,21 @@ var mysqlConfig = {
     user     : 'root',
     password : 'aabbccdd_123',
 
-    charset  : 'utf-8',
-    maxConn  : 20
+    max  : 10
 };
 
-common.MysqlDBTool = sql.createDBTool(mysqlConfig, function(err){
-    if(err) {
-        throw err;
-    }
-});
-
+common.mysqlDBTool = sql.createDBTool(mysqlConfig);
+// Fiber(
+//     futureMysql = new Future();
+//     sql.createDBTool(mysqlConfig, function(err, connection){
+//         if(err) {
+//             future.throw(err);
+//             return;
+//         }
+//         future.return([true, connection]);
+//     });
+//     common.MysqlDBTool = futureMysql.wait();
+// ).run();
 
 ////////////////////////////////////////////////////////////////////
 
@@ -40,12 +44,7 @@ var mssqlConfig = {
     maxConn  : 20
 };
 
-common.mssqlDBTool = sql.createDBTool(mssqlConfig, function(err){
-    if(err) {
-        throw err;
-    }
-    //console.log("is back!");
-});
+common.mssqlDBTool = sql.createDBTool(mssqlConfig);
 
 
 
@@ -66,9 +65,4 @@ var oracleConfig = {
     maxConn  : 20
 };
 
-common.oracleDBTool = sql.createDBTool(oracleConfig, function(err){
-    if(err) {
-        throw err;
-    }
-    //console.log("is back!");
-});
+common.oracleDBTool = sql.createDBTool(oracleConfig);
