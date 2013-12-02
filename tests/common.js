@@ -11,7 +11,9 @@ var mysqlConfig = {
     user     : 'root',
     password : 'aabbccdd_123',
 
-    max  : 10
+    idleTimeoutMillis: 100,
+    min: 0,
+    max: 10
 };
 
 common.mysqlDBTool = sql.createDBTool(mysqlConfig);
