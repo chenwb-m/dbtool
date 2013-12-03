@@ -2,7 +2,7 @@
 ## DBTool instructions
 
 *   [Preparation](#preparation)
-*   [Install DBTool](#install_dbtool)
+*   [Install DBTool](#installdbtool)
 *   [Example](#example)
 *   [Remark](#remark)
 
@@ -60,7 +60,7 @@ In this place, I just show you how to install [Oracle instant client](http://www
 ### &nbsp;
 
 
-### <a id="install_dbtool">Install DBTool</a>
+### <a id="installdbtool">Install DBTool</a>
 
     sudo npm install dbtool
 
