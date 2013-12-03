@@ -1,17 +1,17 @@
 
 ## DBTool instructions
 
-*   [Preparation](#Preparation)
-*   [Install DBTool](#Install_DBTool)
-*   [Example](#Example)
-*   [Remark](#Remark)
+*   [Preparation](#preparation)
+*   [Install DBTool](#install_dbtool)
+*   [Example](#example)
+*   [Remark](#remark)
 
 
 ------------------
 
 ### &nbsp;
 
-### <a id="Preparation">Preparation</a>
+### <a id="preparation">Preparation</a>
 
 Because of this package dependent on oracle, before you install this package, you must install the [Oracle instant client](http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html) first.
 
@@ -60,7 +60,7 @@ In this place, I just show you how to install [Oracle instant client](http://www
 ### &nbsp;
 
 
-### <a id="Install_DBTool">Install DBTool</a>
+### <a id="install_dbtool">Install DBTool</a>
 
     sudo npm install dbtool
 
@@ -68,7 +68,7 @@ In this place, I just show you how to install [Oracle instant client](http://www
 ### &nbsp;
 
 
-### <a id="Example">Example</a>
+### <a id="example">Example</a>
 ##### 1. Make a global common file like this
 
     //common.js
@@ -185,7 +185,7 @@ In this place, I just show you how to install [Oracle instant client](http://www
 
 
 
-### <a id="Remark">Remark</a>
+### <a id="remark">Remark</a>
 
 ##### 1. This package use the connection pool technology and you don't need to care about the release of the connection. Every time you call `executeQuery` function, it will get a connection from connection pool. Beyond the scope of the callback function, the connection will put back to connection pool automatically.
 
