@@ -9,12 +9,17 @@ var options = {
     skip: 50,
     limit: 10
 };
-MysqlDBTool.executeQuery("select * from ru_dbtool_col where cannull=@@ ", options, function(err, rows){
-    if(err) {
-        throw err;
-    }
-    console.dir(rows);
-});
+for(var i=0; i<3; i++) {
+    options.rParams = {p1: i};
+    MysqlDBTool.executeQuery("select * from ru_dbtool_col where cannull=@@ ", options, function(err, rows, params){
+        if(err) {
+            throw err;
+        }
+        console.dir(params);
+        //console.dir(rows);
+    });
+}
+
 
 
 // MysqlDBTool.executeQuery("select * from ru_dbtool_col limit @@, @@", {params:[1, 1]}, function(err, rows){
