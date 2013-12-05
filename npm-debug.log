@@ -1,0 +1,168 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/chenwb/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /home/chenwb/.npm/1f1177db-tar.lock
+15 silly lockFile 85178a0c-40831-0-5327778067439795-tmp-tgz tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+16 verbose lock tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz /home/chenwb/.npm/85178a0c-40831-0-5327778067439795-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 85178a0c-40831-0-5327778067439795-tmp-tgz tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+20 silly lockFile 85178a0c-40831-0-5327778067439795-tmp-tgz tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+21 verbose tar unpack /home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+22 silly lockFile 312ad42a-40831-0-5327778067439795-package tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package
+23 verbose lock tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package /home/chenwb/.npm/312ad42a-40831-0-5327778067439795-package.lock
+24 silly lockFile 85178a0c-40831-0-5327778067439795-tmp-tgz tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+25 verbose lock tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz /home/chenwb/.npm/85178a0c-40831-0-5327778067439795-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry README.md
+29 silly gunzTarPerm extractEntry index.js
+30 silly gunzTarPerm extractEntry .project
+31 silly gunzTarPerm extractEntry doc/examples/mssqlConn.js
+32 silly gunzTarPerm extractEntry doc/examples/mysqlConn1.js
+33 silly gunzTarPerm extractEntry doc/examples/oracleConn1.js
+34 silly gunzTarPerm extractEntry doc/examples/mssqlConn.coffee
+35 silly gunzTarPerm extractEntry lib/conn_cfg.js
+36 silly gunzTarPerm extractEntry lib/connection.js
+37 silly gunzTarPerm extractEntry lib/dbtool.js
+38 silly gunzTarPerm extractEntry lib/pool_cfg.js
+39 silly gunzTarPerm extractEntry lib/dialects/common/const.js
+40 silly gunzTarPerm extractEntry lib/dialects/common/tools.js
+41 silly gunzTarPerm extractEntry lib/dialects/mssql/conn_cfg_map.js
+42 silly gunzTarPerm extractEntry lib/dialects/mssql/connection.js
+43 silly gunzTarPerm extractEntry lib/dialects/mysql/conn_cfg_map.js
+44 silly gunzTarPerm extractEntry lib/dialects/mysql/connection.js
+45 silly gunzTarPerm extractEntry lib/dialects/oracle/conn_cfg_map.js
+46 silly gunzTarPerm extractEntry lib/dialects/oracle/connection.js
+47 silly gunzTarPerm extractEntry lib/proto/constants/charsets.js
+48 silly gunzTarPerm extractEntry lib/proto/constants/dialects.js
+49 silly gunzTarPerm extractEntry lib/proto/constants/types.js
+50 silly gunzTarPerm extractEntry tests/common.js
+51 silly gunzTarPerm extractEntry tests/mssql_dbtool_test.js
+52 silly gunzTarPerm extractEntry tests/mysql_dbtool_test.js
+53 silly gunzTarPerm extractEntry tests/oracle_dbtool_test.js
+54 silly gunzTarPerm extractEntry tests/asyn/common_asyn.js
+55 silly gunzTarPerm extractEntry tests/asyn/mssql_dbtool_asyn_test.js
+56 silly gunzTarPerm extractEntry tests/asyn/mysql_dbtool_asyn_test.js
+57 silly gunzTarPerm extractEntry tests/asyn/oracle_dbtool_asyn_test.js
+58 silly gunzTarPerm extractEntry tests/asyn/params_test.js
+59 silly lockFile 312ad42a-40831-0-5327778067439795-package tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package
+60 silly lockFile 312ad42a-40831-0-5327778067439795-package tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package
+61 silly lockFile 85178a0c-40831-0-5327778067439795-tmp-tgz tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+62 silly lockFile 85178a0c-40831-0-5327778067439795-tmp-tgz tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/tmp.tgz
+63 verbose tar pack [ '/home/chenwb/.npm/dbtool/0.0.4/package.tgz',
+63 verbose tar pack   '/home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package' ]
+64 verbose tarball /home/chenwb/.npm/dbtool/0.0.4/package.tgz
+65 verbose folder /home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package
+66 silly lockFile 312ad42a-40831-0-5327778067439795-package tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package
+67 verbose lock tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package /home/chenwb/.npm/312ad42a-40831-0-5327778067439795-package.lock
+68 silly lockFile 69118345-nwb-npm-dbtool-0-0-4-package-tgz tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz
+69 verbose lock tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz /home/chenwb/.npm/69118345-nwb-npm-dbtool-0-0-4-package-tgz.lock
+70 silly lockFile 312ad42a-40831-0-5327778067439795-package tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package
+71 silly lockFile 312ad42a-40831-0-5327778067439795-package tar:///home/chenwb/tmp/npm-16335-P9tYE4I_/1386239440831-0.5327778067439795/package
+72 silly lockFile 69118345-nwb-npm-dbtool-0-0-4-package-tgz tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz
+73 silly lockFile 69118345-nwb-npm-dbtool-0-0-4-package-tgz tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz
+74 silly lockFile 5a7e183f--chenwb-npm-dbtool-0-0-4-package /home/chenwb/.npm/dbtool/0.0.4/package
+75 verbose lock /home/chenwb/.npm/dbtool/0.0.4/package /home/chenwb/.npm/5a7e183f--chenwb-npm-dbtool-0-0-4-package.lock
+76 silly lockFile 5a7e183f--chenwb-npm-dbtool-0-0-4-package /home/chenwb/.npm/dbtool/0.0.4/package
+77 silly lockFile 5a7e183f--chenwb-npm-dbtool-0-0-4-package /home/chenwb/.npm/dbtool/0.0.4/package
+78 verbose tar unpack /home/chenwb/.npm/dbtool/0.0.4/package.tgz
+79 silly lockFile af0ab07b--chenwb-npm-dbtool-0-0-4-package tar:///home/chenwb/.npm/dbtool/0.0.4/package
+80 verbose lock tar:///home/chenwb/.npm/dbtool/0.0.4/package /home/chenwb/.npm/af0ab07b--chenwb-npm-dbtool-0-0-4-package.lock
+81 silly lockFile 69118345-nwb-npm-dbtool-0-0-4-package-tgz tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz
+82 verbose lock tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz /home/chenwb/.npm/69118345-nwb-npm-dbtool-0-0-4-package-tgz.lock
+83 silly gunzTarPerm modes [ '755', '644' ]
+84 silly gunzTarPerm extractEntry package.json
+85 silly gunzTarPerm extractEntry README.md
+86 silly gunzTarPerm extractEntry index.js
+87 silly gunzTarPerm extractEntry .project
+88 silly gunzTarPerm extractEntry doc/examples/mssqlConn.js
+89 silly gunzTarPerm extractEntry doc/examples/mysqlConn1.js
+90 silly gunzTarPerm extractEntry doc/examples/oracleConn1.js
+91 silly gunzTarPerm extractEntry doc/examples/mssqlConn.coffee
+92 silly gunzTarPerm extractEntry lib/conn_cfg.js
+93 silly gunzTarPerm extractEntry lib/connection.js
+94 silly gunzTarPerm extractEntry lib/dbtool.js
+95 silly gunzTarPerm extractEntry lib/pool_cfg.js
+96 silly gunzTarPerm extractEntry lib/dialects/common/const.js
+97 silly gunzTarPerm extractEntry lib/dialects/common/tools.js
+98 silly gunzTarPerm extractEntry lib/dialects/mssql/conn_cfg_map.js
+99 silly gunzTarPerm extractEntry lib/dialects/mssql/connection.js
+100 silly gunzTarPerm extractEntry lib/dialects/mysql/conn_cfg_map.js
+101 silly gunzTarPerm extractEntry lib/dialects/mysql/connection.js
+102 silly gunzTarPerm extractEntry lib/dialects/oracle/conn_cfg_map.js
+103 silly gunzTarPerm extractEntry lib/dialects/oracle/connection.js
+104 silly gunzTarPerm extractEntry lib/proto/constants/charsets.js
+105 silly gunzTarPerm extractEntry lib/proto/constants/dialects.js
+106 silly gunzTarPerm extractEntry lib/proto/constants/types.js
+107 silly gunzTarPerm extractEntry tests/common.js
+108 silly gunzTarPerm extractEntry tests/mssql_dbtool_test.js
+109 silly gunzTarPerm extractEntry tests/mysql_dbtool_test.js
+110 silly gunzTarPerm extractEntry tests/oracle_dbtool_test.js
+111 silly gunzTarPerm extractEntry tests/asyn/common_asyn.js
+112 silly gunzTarPerm extractEntry tests/asyn/mssql_dbtool_asyn_test.js
+113 silly gunzTarPerm extractEntry tests/asyn/mysql_dbtool_asyn_test.js
+114 silly gunzTarPerm extractEntry tests/asyn/oracle_dbtool_asyn_test.js
+115 silly gunzTarPerm extractEntry tests/asyn/params_test.js
+116 silly lockFile af0ab07b--chenwb-npm-dbtool-0-0-4-package tar:///home/chenwb/.npm/dbtool/0.0.4/package
+117 silly lockFile af0ab07b--chenwb-npm-dbtool-0-0-4-package tar:///home/chenwb/.npm/dbtool/0.0.4/package
+118 silly lockFile 69118345-nwb-npm-dbtool-0-0-4-package-tgz tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz
+119 silly lockFile 69118345-nwb-npm-dbtool-0-0-4-package-tgz tar:///home/chenwb/.npm/dbtool/0.0.4/package.tgz
+120 verbose chmod /home/chenwb/.npm/dbtool/0.0.4/package.tgz 644
+121 verbose chown /home/chenwb/.npm/dbtool/0.0.4/package.tgz [ 1000, 1000 ]
+122 silly lockFile 3a52ce78- .
+123 silly lockFile 3a52ce78- .
+124 silly publish { name: 'dbtool',
+124 silly publish   version: '0.0.4',
+124 silly publish   description: 'help to execute sql query in SQL database, it is just support mysql, mssql, oracle with simple sql in current version.',
+124 silly publish   main: 'index.js',
+124 silly publish   directories: { doc: 'doc', test: 'tests' },
+124 silly publish   dependencies:
+124 silly publish    { 'generic-pool': '~2.0.4',
+124 silly publish      mssql: '~0.3.4',
+124 silly publish      mysql: '~2.0.0-alpha9',
+124 silly publish      oracle: '~0.3.4' },
+124 silly publish   devDependencies: { 'coffee-script': '~1.6.3' },
+124 silly publish   scripts: { test: 'node' },
+124 silly publish   repository: { type: 'git', url: 'https://github.com/chenwb-m/dbtool.git' },
+124 silly publish   keywords: [ 'mysql', 'mssql', 'oracle', 'dbtool' ],
+124 silly publish   author: { name: 'chenweibin' },
+124 silly publish   license: 'MIT',
+124 silly publish   readme: '\n## DBTool instructions\n\n*   [Preparation](#preparation)\n*   [Install DBTool](#installdbtool)\n*   [Example](#example)\n*   [Remark](#remark)\n\n\n------------------\n\n### &nbsp;\n\n### <a id="preparation">Preparation</a>\n\nBecause of this package dependent on oracle, before you install this package, you must install the [Oracle instant client](http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html) first.\n\nFor detail, you can click [here](https://npmjs.org/package/oracle).\n\nIn this place, I just show you how to install [Oracle instant client](http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html) in linux.(from [npm oracle package](https://npmjs.org/package/oracle))\n\n##### 1. Install\n\n  1. Instant Client Package - Basic or Basic Lite: All files required to run OCI, OCCI, and JDBC-OCI applications\n  2. Instant Client Package - SDK: Additional header files and an example makefile for developing Oracle applications with Instant Client\n\n  **Please make sure you download the correct packages for your system architecture, such as 64 bit vs 32 bit Unzip the files 1 and 2 into the same directory, such as /opt/instantclient_11_2 or c:\\instantclient_12_1**\n\n##### 2. Set up the following environment variables\n    \n    export OCI_HOME=<directory of Oracle instant client>\n    export OCI_LIB_DIR=$OCI_HOME\n    export OCI_INCLUDE_DIR=$OCI_HOME/sdk/include\n    export OCI_VERSION=<the instant client major version number> # Optional. Default is 11.\n\n##### 3. Create the following symbolic links\n\n    cd $OCI_LIB_DIR\n    ln -s libclntsh.so.11.1 libclntsh.so\n    ln -s libocci.so.11.1 libocci.so\n\n##### 4. Libaio library is required on Linux systems\n\n* On Unbuntu/Debian\n\n        sudo apt-get install libaio1\n\n* On Fedora/CentOS/RHEL\n\n        sudo yum install libaio\n\n##### 5. Add the shared object files to the ld cache\n\n    # Replace /opt/instantclient_11_2/ with wherever you extracted the Basic Lite files to\n    echo \'/opt/instantclient_11_2/\' | sudo tee -a /etc/ld.so.conf.d/oracle_instant_client.conf\n    sudo ldconfig\n\n\n\n### &nbsp;\n\n\n### <a id="installdbtool">Install DBTool</a>\n\n    sudo npm install dbtool\n\n\n### &nbsp;\n\n\n### <a id="example">Example</a>\n##### 1. Make a global common file like this\n\n    //common.js\n    var dbtool = require(\'dbtool\');\n    var mysqlConfig = {\n        dialect  : \'mysql\',\n        host     : \'192.168.1.113\',\n        port     : 3306,\n        database : \'ME\',\n        user     : \'root\',\n        password : \'root\',\n        min  : 0,               //default 0\n        max  : 10,              //default 1\n        idleTimeoutMillis : 100 //default 100\n    };\n    exports.mysqlDBTool = dbtool.createDBTool(mysqlConfig);\n\n    ////////////////////////////////////////////////////////////////////\n    var mssqlConfig = {\n        dialect  : \'mssql\',\n        host     : \'192.168.1.113\',\n        port     : 1433,\n        database : \'ME\',\n        user     : \'sa\',\n        password : \'sa\'\n    };\n    exports.mssqlDBTool = dbtool.createDBTool(mssqlConfig);\n\n    ////////////////////////////////////////////////////////////////////\n    var oracleConfig = {\n        dialect  : \'oracle\',\n        host     : \'192.168.1.113\',\n        port     : 1521,\n        database : \'ME\',\n        user     : \'sys\',\n        password : \'sys\'\n    };\n    exports.oracleDBTool = dbtool.createDBTool(oracleConfig);\n\n\n##### 2. Execute query and get the result\n\n    var common = require("./common");\n\n    ////////////////////////////////////////////////////////////////////\n    var MysqlDBTool = common.mysqlDBTool;\n    var options = {\n        params: [1],\n        sort : {\n            id: \'asc\',\n            colname: \'desc\'},\n        skip: 50,\n        limit: 10\n    };\n    MysqlDBTool.executeQuery("select * from ru_dbtool_col where cannull=@@ ", options, function(err, rows){\n        if(err) {\n            throw err;\n        }\n        console.dir(rows);\n    });\n    MysqlDBTool.executeQuery("select 1 as time", function(err, rows){\n        if(err) {\n            throw err;\n        }\n        console.dir(rows);\n    });\n\n    ////////////////////////////////////////////////////////////////////\n    var MssqlDBTool = common.mssqlDBTool;\n    var options = {\n        params: [0],\n        sort : {\n            id: \'asc\'},\n        skip: 29,\n        limit: 10\n    };\n    MssqlDBTool.executeQuery("select * from RU_DBTOOL_COL where PRIMARYKEYFLAG = @@", options, function(err, rows){\n        if(err) {\n            throw err;\n        }\n        console.dir(rows);\n    });\n    MssqlDBTool.executeQuery("select 1 as one", function(err, rows){\n        if(err) {\n            throw err;\n        }\n        console.dir(rows);\n    });\n\n    ////////////////////////////////////////////////////////////////////\n    var oracleDBTool = common.oracleDBTool;\n    var options = {\n        params: [\'1\'],\n        sort : {\n            userCode: \'asc\',\n            userName: \'desc\'},\n        skip: 19,\n        limit: 10\n    };\n    oracleDBTool.executeQuery("select * from PM_USER where userflag = @@", options, function(err, rows){\n        if(err) {\n            throw err;\n        }\n        console.dir(rows);\n    });\n    oracleDBTool.executeQuery("select 1 from dual", function(err, rows){\n        if(err) {\n            throw err;\n        }\n        console.dir(rows);\n    });\n\n### &nbsp;\n\n\n\n### <a id="remark">Remark</a>\n\n##### 1. This package use the connection pool technology and you don\'t need to care about the release of the connection. Every time you call `executeQuery` function, it will get a connection from connection pool. Beyond the scope of the callback function, the connection will put back to connection pool automatically.\n\n##### 2. This DBTool unified the paging and scheduling interface, but it is not support `sql server 2000`.\n\n\n',
+124 silly publish   readmeFilename: 'README.md',
+124 silly publish   bugs: { url: 'https://github.com/chenwb-m/dbtool/issues' },
+124 silly publish   _id: 'dbtool@0.0.4',
+124 silly publish   dist: { shasum: 'ea1ec0f6614fd6284abf46b66e4f8b82c993f55a' },
+124 silly publish   _from: '.' }
+125 error need auth auth and email required for publishing
+125 error need auth You need to authorize this machine using `npm adduser`
+126 error System Linux 3.11.0-13-generic
+127 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+128 error cwd /home/chenwb/eworkspace/dbtool
+129 error node -v v0.10.21
+130 error npm -v 1.3.11
+131 error code ENEEDAUTH
+132 verbose exit [ 1, true ]

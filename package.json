@@ -1,6 +1,6 @@
 {
   "name": "dbtool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "help to execute sql query in SQL database, it is just support mysql, mssql, oracle with simple sql in current version.",
   "main": "index.js",
   "directories": {
