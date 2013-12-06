@@ -4,6 +4,7 @@
 *   [Preparation](#preparation)
 *   [Install DBTool](#installdbtool)
 *   [Example](#example)
+*   [DBTool Info](#dbtoolinfo)
 *   [Remark](#remark)
 
 
@@ -183,7 +184,24 @@ In this place, I just show you how to install [Oracle instant client](http://www
 
 ### &nbsp;
 
+### <a id="dbtoolinfo">DBTool Info</a>
 
+The following functions will let you get information about the DBTool status:
+
+    // returns number of connection in the dbtool inner pool regardless of
+    // whether they are free or in use
+    getPoolSize()
+
+    // returns number of using connection in the dbtool inner pool
+    getBusyConnsCount()
+
+    // returns number of unused connection in the dbtool inner pool
+    getAvailableConnsCount()
+
+    // returns number of callers waiting to acquire a connection
+    getWaitingClientsCount()
+
+### &nbsp;
 
 ### <a id="remark">Remark</a>
 
